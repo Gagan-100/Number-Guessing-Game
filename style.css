@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(to right, #8fc9ae, #548e87, #385b66);
+    color: white;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+#heading{
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+#container{
+    position: relative;
+    top: 80px;
+    left: 410px;
+    background: conic-gradient(at bottom right, #f9f8eb, #76b39d, #262445);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 67vh;
+    width: 44vw;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+   
+    
+}
+#guess_number{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+#info{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#enter_num{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 240px;
+    height: 24px;
+    width: 170px;
+    border-radius: 5px;
+
+
+}
+#submit{
+     display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    cursor: pointer;
+
+    position: relative;
+    left: 260px;
+  
+    height: 6vh;
+    width: 9vw;
+    background-color: rgb(1, 14, 1);
+    color: white;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+.guess_div{
+
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.guess_pre{
+     font-size:17px;
+     position: relative;
+     left: 12px;
+     top: 10px;
+
+}
+.guess_rem{
+     font-size: 17px;
+     position: relative;
+     left: 22px;
+     /* top: 10px; */
+
+}
+.previous{
+    font-size: 17px;
+
+   
+
+}
+.remaining{
+    font-size: 17px;
+
+
+}
+
+#newGame{
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+}
+
+.lowOrHigh{
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+
+}
+.info_message{
+
+    color: rgb(151, 231, 252);
+    position: relative;
+    left: 70px;
+    bottom: -48px;
+
+}
+.gameover_msg{
+    color: aqua;
+
+}
+
+.win_msg{
+    color: aqua;
+    position: relative;
+     left: 15px;
+    bottom: -18px;
+
+
+}
