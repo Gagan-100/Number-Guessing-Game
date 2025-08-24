@@ -10,7 +10,8 @@
 ✅ 🎉 Win/Lose message with option to play again
 ✅ Responsive and simple UI
 
-<img width="800" alt="Number Guess Screenshot" src="./Screenshot%202025-08-17%20133350.png" />
+<img width="800" alt="Number Guess Screenshot" src="./Screenshot 2025-08-24 181005.png" />
+
 
 🛠️ Tech Stack
 
